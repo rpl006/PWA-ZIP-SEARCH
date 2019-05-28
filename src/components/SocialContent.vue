@@ -6,7 +6,9 @@
     </ion-fab-button>
     <ion-fab-list side="top">
       <ion-fab-button>
-        <ion-icon name="logo-vimeo"></ion-icon>
+        <a href="https://linkedin.com">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
       </ion-fab-button>
     </ion-fab-list>
     <ion-fab-list side="bottom">
@@ -32,5 +34,10 @@ export default {
   name: "SocialContent"
 };
 </script>
+<style>
+ion-fab {
+  margin-top: 30%;
+}
+</style>
 
 
