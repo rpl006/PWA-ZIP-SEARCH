@@ -15,13 +15,13 @@
         <ion-item>
           <ion-label>
             <strong>Latitude:</strong>
-            {{info['places'][0]['Latitude']}}
+            {{info['places'][0]['latitude']}}
           </ion-label>
         </ion-item>
         <ion-item>
           <ion-label>
             <strong>Longitude:</strong>
-            {{info['places'][0]['Longitude']}}
+            {{info['places'][0]['longitude']}}
           </ion-label>
         </ion-item>
       </ion-list>
