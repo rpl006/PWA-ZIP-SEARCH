@@ -2,7 +2,7 @@
   <div class="ion-page">
     <ion-header>
       <ion-toolbar>
-        <ion-title>ZipInfo</ion-title>
+        <ion-title>ZipInfo PWA App</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
@@ -10,6 +10,7 @@
       <ZipInfo v-bind:info="info"/>
       <ClearInfo v-bind:info="info" v-on:clear-info="clearInfo"/>
       <SocialContent/>
+      <FooterContent/>
     </ion-content>
   </div>
 </template>
@@ -20,6 +21,7 @@ import ZipSearch from "../components/ZipSearch";
 import ZipInfo from "../components/ZipInfo";
 import SocialContent from "../components/SocialContent";
 import ClearInfo from "../components/CLearInfo";
+import FooterContent from "../components/FooterContent";
 
 export default {
   name: "home",
@@ -27,7 +29,8 @@ export default {
     ZipSearch,
     SocialContent,
     ZipInfo,
-    ClearInfo
+    ClearInfo,
+    FooterContent
   },
   data() {
     return {
