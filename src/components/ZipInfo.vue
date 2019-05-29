@@ -1,5 +1,5 @@
 <template>
-  <ion-card v-if="info">
+  <ion-card v-if="info" color="light">
     <ion-card-header>
       <ion-card-subtitle>{{info['post code']}}</ion-card-subtitle>
       <ion-card-title>{{info['places'][0]['place name']}}</ion-card-title>

@@ -39,6 +39,7 @@ export default {
       info: null
     };
   },
+
   methods: {
     async getZipInfo(zip) {
       const res = await fetch(`https://api.zippopotam.us/us/${zip}`);
