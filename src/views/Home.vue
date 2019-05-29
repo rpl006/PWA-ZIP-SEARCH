@@ -8,8 +8,10 @@
     <ion-content class="ion-padding">
       <ZipSearch v-on:get-zip="getZipInfo"/>
       <ZipInfo v-bind:info="info"/>
+
       <ClearInfo v-bind:info="info" v-on:clear-info="clearInfo"/>
       <SocialContent/>
+
       <FooterContent/>
     </ion-content>
   </div>
